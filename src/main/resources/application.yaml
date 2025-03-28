@@ -1,0 +1,15 @@
+openai:
+  api:
+    key:
+      transcription:
+        url: https://api.openai.com/v1/audio/transcriptions
+        model: whisper-1
+        launge: ru
+      chat:
+        url: https://api.openai.com/v1/chat/completions
+        model: gpt-4o
+        system_role: "?? ??? ??????"
+
+
+
+#  7124752565:AAF1b_bPuYaPbaMfzyAMCAHsGUfwz7NrKTQ
