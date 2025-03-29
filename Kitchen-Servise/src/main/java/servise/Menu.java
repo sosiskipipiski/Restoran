@@ -8,5 +8,9 @@ import java.util.List;
 @Service
 public class Menu {
     private static final List<String> availableDish = Arrays.asList("Pizza","Pasta","Salat","Burger");
+
+    public boolean isDishAvailable(String dishName){
+        return availableDish.contains(dishName);
+    }
     
 }
